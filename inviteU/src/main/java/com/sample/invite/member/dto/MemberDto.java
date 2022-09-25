@@ -23,4 +23,9 @@ public class MemberDto {
 		this.phone = phone;
 	}
 	public String phone;
+	
+	@Override
+	public String toString() {
+		return "MemberDto [name=" + name + ", email=" + email + ", phone=" + phone + "]";
+	}
 }
