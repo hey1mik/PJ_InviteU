@@ -1,4 +1,4 @@
-package com.sample.invite.member.dto;
+package com.sample.invite.user.dto;
 
 public class MemberDto {
 	

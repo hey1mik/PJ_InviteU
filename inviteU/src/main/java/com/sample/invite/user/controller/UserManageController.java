@@ -1,4 +1,4 @@
-package com.sample.invite.member.controller;
+package com.sample.invite.user.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sample.invite.member.dto.MemberDto;
+import com.sample.invite.user.dto.MemberDto;
 
 @RestController
 @RequestMapping("/user")
